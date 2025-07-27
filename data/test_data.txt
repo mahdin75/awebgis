@@ -1,0 +1,354 @@
+{"input": "Decrease the zoom by 6 levels.", "output": "ZoomOut(6)"}
+{"input": "Move map view to 51.3595, 25.5972!", "output": "Move(51.3595, 25.5972)"}
+{"input": "Load the polyline vector using polyline_rivers_Asia_rf9.shp", "output": "AddVector('polyline', 'polyline_rivers_Asia_rf9.shp')"}
+{"input": "Connect to WMS using https://tiles.io/geoserver/wms!", "output": "AddWMS('https://tiles.io/geoserver/wms')"}
+{"input": "I prefer the OpenMuseumMap layer for cultural sites.", "output": "AddLayer('OpenMuseumMap')"}
+{"input": "Attach polyline_rivers_London_hsq.shp to overlay polyline vectors", "output": "AddVector('polyline', 'polyline_rivers_London_hsq.shp')"}
+{"input": "Update map position to -32.5905, -80.6182.", "output": "Move(-32.5905, -80.6182)"}
+{"input": "Include point features from file point_buildings_Berlin_nzj.geojson", "output": "AddVector('point', 'point_buildings_Berlin_nzj.geojson')"}
+{"input": "Load the point vector using point_districts_Paris_vjw.geojson!", "output": "AddVector('point', 'point_districts_Paris_vjw.geojson')"}
+{"input": "Focus on the region from 33.9391, 67.7099 to 52.2297, 21.0122.", "output": "MoveToExtent(33.9391, 67.7099, 52.2297, 21.0122)"}
+{"input": "Zoom out of the map by 3 levels to get a broader view.", "output": "ZoomOut(3)"}
+{"input": "Attach 'points_gardens_Japan.shp' to plot garden locations.", "output": "AddVector('point', 'points_gardens_Japan.shp')"}
+{"input": "Increase the zoom by 5 levels.", "output": "ZoomIn(5)"}
+{"input": "Make the fill color of forests dark green.", "output": "Cartography('fill', 'darkgreen', null)"}
+{"input": "Import polygon data with polygon_lakes_Paris_qiv.gml!", "output": "AddVector('polygon', 'polygon_lakes_Paris_qiv.gml')"}
+{"input": "Navigate to -66.9389, -85.3609 on the map.", "output": "Move(-66.9389, -85.3609)"}
+{"input": "Place a marker labeled 'Library' at 45.508, 62.1081.", "output": "AddMarker('Library', [45.508, 62.1081])"}
+{"input": "Let's travel to 29.5833, 106.5833.", "output": "Move(29.5833, 106.5833)"}
+{"input": "I need to include the snow cover data via WMS URL https://snow.cover/wms", "output": "AddWMS('https://snow.cover/wms')"}
+{"input": "Include Yandex as a base map!", "output": "AddLayer('Yandex')"}
+{"input": "Jump to -41.9615, 150.6764 on the map", "output": "Move(-41.9615, 150.6764)"}
+{"input": "I want to go to 58.3733, 26.7265.", "output": "Move(58.3733, 26.7265)"}
+{"input": "Place 'Victoria Falls' at -17.9243, 25.8567 on the map!", "output": "AddMarker('Victoria Falls', [-17.9243, 25.8567])"}
+{"input": "Take me to the point 34.0000, 108.0000.", "output": "Move(34.0000, 108.0000)"}
+{"input": "Add marker 'Park' at location -22.292, 89.7934!", "output": "AddMarker('Park', [-22.292, 89.7934])"}
+{"input": "Focus on the area from 33.9428, 18.4232 to 55.7558, 37.6173.", "output": "MoveToExtent(33.9428, 18.4232, 55.7558, 37.6173)"}
+{"input": "Use the Line tool to map the aqueduct!", "output": "Draw('Line')"}
+{"input": "Use a dimgray stroke with a width of 8 for dramatic effects.", "output": "Cartography('stroke', 'dimgray', 8)"}
+{"input": "I prefer the OpenHistoricalMap layer for history buffs.", "output": "AddLayer('OpenHistoricalMap')"}
+{"input": "Upload 'polygons_geysers_USA.kml' to highlight geyser field areas.", "output": "AddVector('polygon', 'polygons_geysers_USA.kml')"}
+{"input": "Make the map in 4 levels", "output": "ZoomIn(4)"}
+{"input": "Load the point vector using point_districts_Africa_s87.geojson", "output": "AddVector('point', 'point_districts_Africa_s87.geojson')"}
+{"input": "Use a lavender stroke with a width of 3 for soft outlines.", "output": "Cartography('stroke', 'lavender', 3)"}
+{"input": "Zoom in by 5 levels to inspect the map closely.", "output": "ZoomIn(5)"}
+{"input": "Import point data with point_buildings_Paris_4cv.shp.", "output": "AddVector('point', 'point_buildings_Paris_4cv.shp')"}
+{"input": "Add a marker labeled 'Dubrovnik Old Town' at 42.6507, 18.0944!", "output": "AddMarker('Dubrovnik Old Town', [42.6507, 18.0944])"}
+{"input": "Please zoom out 3 levels!", "output": "ZoomOut(3)"}
+{"input": "Tag location Beach, -84.8163 as '-119.3566'", "output": "AddMarker('Beach', [-84.8163, -119.3566])"}
+{"input": "Zoom out by 7 levels to see the entire area.", "output": "ZoomOut(7)"}
+{"input": "Include polyline features from file polyline_rivers_Texas_ep3.gml", "output": "AddVector('polyline', 'polyline_rivers_Texas_ep3.gml')"}
+{"input": "Upload 'polylines_ferries_Seattle.gpx' to visualize ferry routes.", "output": "AddVector('polyline', 'polylines_ferries_Seattle.gpx')"}
+{"input": "Add the Mapbox map layer!", "output": "AddLayer('Mapbox')"}
+{"input": "Reduce the map's zoom by 5 levels for a wider view.", "output": "ZoomOut(5)"}
+{"input": "Head to -12.2829, -152.6799!", "output": "Move(-12.2829, -152.6799)"}
+{"input": "Pull back the zoom by 4 levels for a broader view.", "output": "ZoomOut(4)"}
+{"input": "I need the OpenZooMap layer for animal lovers.", "output": "AddLayer('OpenZooMap')"}
+{"input": "I need to include the volcanic hazard layer via WMS URL https://volcanic.hazard/wms", "output": "AddWMS('https://volcanic.hazard/wms')"}
+{"input": "Make the map's stroke color to orchid with a width of 5.", "output": "Cartography('stroke', 'orchid', 5)"}
+{"input": "Go out 6 levels in the map!", "output": "ZoomOut(6)"}
+{"input": "Trace a Line along the dog walking path!", "output": "Draw('Line')"}
+{"input": "Zoom in 10 levels on the map!", "output": "ZoomIn(10)"}
+{"input": "Zoom in by 7 levels to examine the area.", "output": "ZoomIn(7)"}
+{"input": "I'd like to zoom out by 5 levels!", "output": "ZoomOut(5)"}
+{"input": "Set the visible region between 37.2917, 19.0004 and -20.4939, 54.4082.", "output": "MoveToExtent(37.2917, 19.0004, -20.4939, 54.4082)"}
+{"input": "Attach 'polylines_canoe_Canada.shp' to overlay canoe trails.", "output": "AddVector('polyline', 'polylines_canoe_Canada.shp')"}
+{"input": "View the region between 4.3779, 49.8614 and -84.1608, -24.9778!", "output": "MoveToExtent(4.3779, 49.8614, -84.1608, -24.9778)"}
+{"input": "Display map layer using WMS URL https://example.com/wms", "output": "AddWMS('https://example.com/wms')"}
+{"input": "Zoom out of the map by 7 levels to see the whole area.", "output": "ZoomOut(7)"}
+{"input": "I need the OpenRetailMap layer for shopping.", "output": "AddLayer('OpenRetailMap')"}
+{"input": "Create a Line to show the route!", "output": "Draw('Line')"}
+{"input": "Upload the file point for point_buildings_Africa_z24.kml layer", "output": "AddVector('point', 'point_buildings_Africa_z24.kml')"}
+{"input": "Show the zone from 25.0000, 121.0000 to 42.0000, -87.0000.", "output": "MoveToExtent(25.0000, 121.0000, 42.0000, -87.0000)"}
+{"input": "Switch to the Wikimapia map layer", "output": "AddLayer('Wikimapia')"}
+{"input": "Zoom into the area from 39.0000, 116.0000 to 53.0000, 9.0000.", "output": "MoveToExtent(39.0000, 116.0000, 53.0000, 9.0000)"}
+{"input": "Show me the region from 33.0000, 67.0000 to 52.0000, 21.0000.", "output": "MoveToExtent(33.0000, 67.0000, 52.0000, 21.0000)"}
+{"input": "Zoom in by 5 levels to get a detailed view.", "output": "ZoomIn(5)"}
+{"input": "Add the blizzard impact assessment via WMS URL https://blizzard.impact/wms", "output": "AddWMS('https://blizzard.impact/wms')"}
+{"input": "Take me to the coordinates 47.0000, 19.0000.", "output": "Move(47.0000, 19.0000)"}
+{"input": "Go to location 5.3086, 172.9136!", "output": "Move(5.3086, 172.9136)"}
+{"input": "Zoom in by 8 levels.", "output": "ZoomIn(8)"}
+{"input": "Update map position to 81.9467, 118.8099.", "output": "Move(81.9467, 118.8099)"}
+{"input": "Plot a Point for the statue!", "output": "Draw('Point')"}
+{"input": "Let's zoom in 6 levels", "output": "ZoomIn(6)"}
+{"input": "Use 'polygons_forests_Canada.geojson' to highlight forest areas.", "output": "AddVector('polygon', 'polygons_forests_Canada.geojson')"}
+{"input": "Display the coordinates between 24.0000, 54.0000 and 46.0000, 14.0000.", "output": "MoveToExtent(24.0000, 54.0000, 46.0000, 14.0000)"}
+{"input": "Create a Polygon on the canvas!", "output": "Draw('Polygon')"}
+{"input": "Upload the file point for point_buildings_Paris_hkl.json layer!", "output": "AddVector('point', 'point_buildings_Paris_hkl.json')"}
+{"input": "Move out by 6 zoom levels!", "output": "ZoomOut(6)"}
+{"input": "I need the OpenRailwayMap layer for rail networks.", "output": "AddLayer('OpenRailwayMap')"}
+{"input": "Use a mediumseagreen stroke with a width of 4 for natural themes.", "output": "Cartography('stroke', 'mediumseagreen', 4)"}
+{"input": "Add a Point to indicate the flagpole!", "output": "Draw('Point')"}
+{"input": "Magnify the map by 7 levels to see more clearly.", "output": "ZoomIn(7)"}
+{"input": "Update map position to 80.7216, -133.7738.", "output": "Move(80.7216, -133.7738)"}
+{"input": "Go to the location 33.9391, 67.7099.", "output": "Move(33.9391, 67.7099)"}
+{"input": "Show me the coordinates from 32.0000, 35.0000 to 51.0000, 10.0000.", "output": "MoveToExtent(32.0000, 35.0000, 51.0000, 10.0000)"}
+{"input": "Add a WMS map service from https://data.gov/mapservice!", "output": "AddWMS('https://data.gov/mapservice')"}
+{"input": "Navigate to 53.6235, 140.7304 on the map", "output": "Move(53.6235, 140.7304)"}
+{"input": "Show the real-time traffic data using WMS URL https://traffic.live/wms", "output": "AddWMS('https://traffic.live/wms')"}
+{"input": "Zoom into the map by 4 levels to inspect closely.", "output": "ZoomIn(4)"}
+{"input": "Zoom in the map by 2 levels.", "output": "ZoomIn(2)"}
+{"input": "I'd like to head to 36.2048, 138.2529.", "output": "Move(36.2048, 138.2529)"}
+{"input": "Add a marker labeled 'Mount Everest Summit' at 27.9881, 86.9250!", "output": "AddMarker('Mount Everest Summit', [27.9881, 86.9250])"}
+{"input": "Focus on the zone from 32.0853, 34.7818 to 50.4501, 30.5234.", "output": "MoveToExtent(32.0853, 34.7818, 50.4501, 30.5234)"}
+{"input": "Decrease the map zoom by 2 levels.", "output": "ZoomOut(2)"}
+{"input": "Mark 'Restaurant' at -69.2723, -47.1018", "output": "AddMarker('Restaurant', [-69.2723, -47.1018])"}
+{"input": "Apply a maroon stroke with a width of 8 to the borders.", "output": "Cartography('stroke', 'maroon', 8)"}
+{"input": "Change to the IGN map layer!", "output": "AddLayer('IGN')"}
+{"input": "Zoom out by 7 levels.", "output": "ZoomOut(7)"}
+{"input": "Go to the location 51.0000, 10.0000.", "output": "Move(51.0000, 10.0000)"}
+{"input": "Load the point vector using point_rivers_Sydney_k7k.kml", "output": "AddVector('point', 'point_rivers_Sydney_k7k.kml')"}
+{"input": "Change the map's stroke color to peachpuff with a width of 5.", "output": "Cartography('stroke', 'peachpuff', 5)"}
+{"input": "I need the chlorophyll concentration data via WMS URL https://chlorophyll.concentration/wms", "output": "AddWMS('https://chlorophyll.concentration/wms')"}
+{"input": "Load WMS service at https://tiles.io/geoserver/wms.", "output": "AddWMS('https://tiles.io/geoserver/wms')"}
+{"input": "Change the map's stroke color to teal with a width of 5.", "output": "Cartography('stroke', 'teal', 5)"}
+{"input": "Zoom the map out by 6 levels", "output": "ZoomOut(6)"}
+{"input": "Go in 10 levels in the map.", "output": "ZoomIn(10)"}
+{"input": "Display the zone from 51.5074, -0.1278 to 25.7617, -80.1918.", "output": "MoveToExtent(51.5074, -0.1278, 25.7617, -80.1918)"}
+{"input": "Can you add the OpenFireMap layer for wildfire tracking?", "output": "AddLayer('OpenFireMap')"}
+{"input": "Fit the map to cover area from 25.8267, 178.8622 to -29.3182, 171.0535.", "output": "MoveToExtent(25.8267, 178.8622, -29.3182, 171.0535)"}
+{"input": "Display extent from -23.4716, -62.8223 to 25.9003, 44.3996", "output": "MoveToExtent(-23.4716, -62.8223, 25.9003, 44.3996)"}
+{"input": "Fetch WMS tiles from https://maps.org/wms!", "output": "AddWMS('https://maps.org/wms')"}
+{"input": "Begin sketching a Point shape!", "output": "Draw('Point')"}
+{"input": "Attach polyline_lakes_Paris_u4n.geojson to overlay polyline vectors", "output": "AddVector('polyline', 'polyline_lakes_Paris_u4n.geojson')"}
+{"input": "Plot a Point for the observation point!", "output": "Draw('Point')"}
+{"input": "Show the building footprints from WMS URL https://building.footprints/wms", "output": "AddWMS('https://building.footprints/wms')"}
+{"input": "Load the polygon vector using polygon_roads_Asia_34m.gml", "output": "AddVector('polygon', 'polygon_roads_Asia_34m.gml')"}
+{"input": "Apply a burgundy stroke with a width of 5 to the historical sites.", "output": "Cartography('stroke', 'burgundy', 5)"}
+{"input": "I prefer the OpenYogaMap layer for mindfulness.", "output": "AddLayer('OpenYogaMap')"}
+{"input": "I'd like to head to 56.0000, 37.0000.", "output": "Move(56.0000, 37.0000)"}
+{"input": "Reduce the map zoom by 8 levels.", "output": "ZoomOut(8)"}
+{"input": "Zoom in by 6 levels to focus on every detail.", "output": "ZoomIn(6)"}
+{"input": "Zoom into the region from 34.0000, 135.0000 to 57.0000, 12.0000.", "output": "MoveToExtent(34.0000, 135.0000, 57.0000, 12.0000)"}
+{"input": "Use Carto for the background map.", "output": "AddLayer('Carto')"}
+{"input": "Can you add the weather layer using WMS URL https://weather.gis/wms?", "output": "AddWMS('https://weather.gis/wms')"}
+{"input": "Add a point layer from file point_utilities_Africa_sph.kml.", "output": "AddVector('point', 'point_utilities_Africa_sph.kml')"}
+{"input": "Zoom into the extent from 35.0000, -0.0000 to 59.0000, 18.0000.", "output": "MoveToExtent(35.0000, -0.0000, 59.0000, 18.0000)"}
+{"input": "Add a WMS map service from https://maps.org/mapservice!", "output": "AddWMS('https://maps.org/mapservice')"}
+{"input": "View the area between 26.0000, 30.0000 and 44.0000, -93.0000.", "output": "MoveToExtent(26.0000, 30.0000, 44.0000, -93.0000)"}
+{"input": "Create a Point on the canvas", "output": "Draw('Point')"}
+{"input": "Let\u2019s use the OpenCampingMap layer for outdoor stays.", "output": "AddLayer('OpenCampingMap')"}
+{"input": "Change map extent between (7.4787, -15.6207) and (16.5025, -76.7752)", "output": "MoveToExtent(7.4787, -15.6207, 16.5025, -76.7752)"}
+{"input": "Change the background color to mint.", "output": "Cartography('background', 'mint', null)"}
+{"input": "Apply a silver stroke with a width of 2 to the details.", "output": "Cartography('stroke', 'silver', 2)"}
+{"input": "Set a marker 'Park' at -13.9187, 89.8149", "output": "AddMarker('Park', [-13.9187, 89.8149])"}
+{"input": "Activate Line shape drawing!", "output": "Draw('Line')"}
+{"input": "Zoom in by 4 levels!", "output": "ZoomIn(4)"}
+{"input": "Move map view to 60.8384, 124.7314", "output": "Move(60.8384, 124.7314)"}
+{"input": "Take us to 37.0000, 126.0000.", "output": "Move(37.0000, 126.0000)"}
+{"input": "Place 'Mount Fuji' at 35.3606, 138.7274 on the map!", "output": "AddMarker('Mount Fuji', [35.3606, 138.7274])"}
+{"input": "Add the ice thickness map using WMS URL https://ice.thickness/wms", "output": "AddWMS('https://ice.thickness/wms')"}
+{"input": "Zoom out by 6 levels for a broader perspective.", "output": "ZoomOut(6)"}
+{"input": "I want the OpenPtMap layer for public transit.", "output": "AddLayer('OpenPtMap')"}
+{"input": "Use the Line tool to map the subway line!", "output": "Draw('Line')"}
+{"input": "Trace a Line along the property line!", "output": "Draw('Line')"}
+{"input": "I want to zoom in 4 levels.", "output": "ZoomIn(4)"}
+{"input": "Enable Baidu base layer", "output": "AddLayer('Baidu')"}
+{"input": "Update map position to -14.3652, 75.4307.", "output": "Move(-14.3652, 75.4307)"}
+{"input": "Zoom in 2.", "output": "ZoomIn(2)"}
+{"input": "Make the background color to lightcyan.", "output": "Cartography('background', 'lightcyan', null)"}
+{"input": "Increase the map's zoom by 3 levels.", "output": "ZoomIn(3)"}
+{"input": "Plot a Point for the summit!", "output": "Draw('Point')"}
+{"input": "Zoom in 8", "output": "ZoomIn(8)"}
+{"input": "Let\u2019s use the OpenMarketMap layer for local vendors.", "output": "AddLayer('OpenMarketMap')"}
+{"input": "Zoom out 5 levels on the map!", "output": "ZoomOut(5)"}
+{"input": "Change map extent between (-85.5882, 66.2869) and (40.4976, 106.8475).", "output": "MoveToExtent(-85.5882, 66.2869, 40.4976, 106.8475)"}
+{"input": "View the region between -63.6139, 6.7214 and 39.2061, -97.0749", "output": "MoveToExtent(-63.6139, 6.7214, 39.2061, -97.0749)"}
+{"input": "Let's zoom in 4 levels", "output": "ZoomIn(4)"}
+{"input": "Pull back the zoom by 4 levels.", "output": "ZoomOut(4)"}
+{"input": "Draw a Line to represent the hiking trail!", "output": "Draw('Line')"}
+{"input": "Plot a Point for the observatory!", "output": "Draw('Point')"}
+{"input": "Mark 'Niagara Falls' on the map at 43.0816, -79.0850!", "output": "AddMarker('Niagara Falls', [43.0816, -79.0850])"}
+{"input": "Set the visible region between -8.5684, -87.5863 and 29.2017, -31.4339", "output": "MoveToExtent(-8.5684, -87.5863, 29.2017, -31.4339)"}
+{"input": "I'd like to travel to 55.7558, 37.6173.", "output": "Move(55.7558, 37.6173)"}
+{"input": "I prefer the OpenCyclingMap layer for bike routes.", "output": "AddLayer('OpenCyclingMap')"}
+{"input": "Use a coral stroke with a width of 4 for coastal areas.", "output": "Cartography('stroke', 'coral', 4)"}
+{"input": "Show me the extent from 36.0000, 138.0000 to 55.0000, 9.0000.", "output": "MoveToExtent(36.0000, 138.0000, 55.0000, 9.0000)"}
+{"input": "Enable WMS map from https://geo.server.net/arcgis/services/wms.", "output": "AddWMS('https://geo.server.net/arcgis/services/wms')"}
+{"input": "I prefer the Maptiler Streets layer for detailed roads.", "output": "AddLayer('MaptilerStreets')"}
+{"input": "Adjust the map in by 5 levels.", "output": "ZoomIn(5)"}
+{"input": "Label the point 41.9028, 12.4964 as 'Roman Forum'!", "output": "AddMarker('Roman Forum', [41.9028, 12.4964])"}
+{"input": "Reduce the map's zoom level by 5 steps.", "output": "ZoomOut(5)"}
+{"input": "Add a marker with label 'City Hall' at -75.0371, -28.7593.", "output": "AddMarker('City Hall', [-75.0371, -28.7593])"}
+{"input": "Mark the entrance with a Point!", "output": "Draw('Point')"}
+{"input": "Apply a mediumpurple stroke with a width of 4 to the details.", "output": "Cartography('stroke', 'mediumpurple', 4)"}
+{"input": "I want to add the crime rate map from WMS URL https://crime.rate/wms", "output": "AddWMS('https://crime.rate/wms')"}
+{"input": "Connect to WMS using https://geo.server.net/geoserver/wms!", "output": "AddWMS('https://geo.server.net/geoserver/wms')"}
+{"input": "Attach polyline_network_Tokyo_1e2.kml to overlay polyline vectors", "output": "AddVector('polyline', 'polyline_network_Tokyo_1e2.kml')"}
+{"input": "Zoom into the map by 2 levels to inspect closer.", "output": "ZoomIn(2)"}
+{"input": "Jump to 27.8761, 179.4354 on the map!", "output": "Move(27.8761, 179.4354)"}
+{"input": "Zoom into the coordinates from 39.9042, 116.4074 to 52.5200, 13.4050.", "output": "MoveToExtent(39.9042, 116.4074, 52.5200, 13.4050)"}
+{"input": "Zoom out of the map by 4 levels for a broader view.", "output": "ZoomOut(4)"}
+{"input": "Update view to bounds 45.4557, 127.0616 through -18.8044, 46.4928!", "output": "MoveToExtent(45.4557, 127.0616, -18.8044, 46.4928)"}
+{"input": "Display the zone from 34.0000, 108.0000 to 56.0000, 37.0000.", "output": "MoveToExtent(34.0000, 108.0000, 56.0000, 37.0000)"}
+{"input": "Show me the extent from 36.0000, 104.0000 to 54.0000, 18.0000.", "output": "MoveToExtent(36.0000, 104.0000, 54.0000, 18.0000)"}
+{"input": "Go in 9 levels in the map.", "output": "ZoomIn(9)"}
+{"input": "Fit the map to cover area from -64.8266, -62.5834 to 64.0617, 13.0176", "output": "MoveToExtent(-64.8266, -62.5834, 64.0617, 13.0176)"}
+{"input": "Change the background color to navy blue.", "output": "Cartography('background', 'navy', null)"}
+{"input": "Move out by 2 zoom levels.", "output": "ZoomOut(2)"}
+{"input": "Move the map to latitude 45.7927 and longitude -109.4956", "output": "Move(45.7927, -109.4956)"}
+{"input": "Zoom in 3 levels on the map!", "output": "ZoomIn(3)"}
+{"input": "I'd like to zoom in by 2 levels", "output": "ZoomIn(2)"}
+{"input": "Go to location 40.5803, -80.2674.", "output": "Move(40.5803, -80.2674)"}
+{"input": "Fetch the public transport routes via WMS URL https://transport.routes/wms", "output": "AddWMS('https://transport.routes/wms')"}
+{"input": "Show the polyline layer from polyline_districts_Paris_upb.kml.", "output": "AddVector('polyline', 'polyline_districts_Paris_upb.kml')"}
+{"input": "Zoom into the map by 2 levels to get closer.", "output": "ZoomIn(2)"}
+{"input": "I want to zoom out 8 levels!", "output": "ZoomOut(8)"}
+{"input": "Zoom to the area between 23.0000, -102.0000 and 49.0000, -123.0000.", "output": "MoveToExtent(23.0000, -102.0000, 49.0000, -123.0000)"}
+{"input": "Change map extent between (-57.0183, -168.763) and (1.7885, -130.0003)", "output": "MoveToExtent(-57.0183, -168.763, 1.7885, -130.0003)"}
+{"input": "Attach 'polylines_funicular_Switzerland.kml' to visualize funicular routes.", "output": "AddVector('polyline', 'polylines_funicular_Switzerland.kml')"}
+{"input": "Mark the wind turbine with a Point!", "output": "Draw('Point')"}
+{"input": "Import 'polylines_monorails_Tokyo.kml' to visualize monorail routes.", "output": "AddVector('polyline', 'polylines_monorails_Tokyo.kml')"}
+{"input": "Show me the area from 40.7128, -74.0060 to 34.0522, -118.2437.", "output": "MoveToExtent(40.7128, -74.0060, 34.0522, -118.2437)"}
+{"input": "Can you add the OpenArtMap layer for street art?", "output": "AddLayer('OpenArtMap')"}
+{"input": "Add a Point to indicate the starting position!", "output": "Draw('Point')"}
+{"input": "Label the coordinates 48.1351, 11.5820 as 'Munich'!", "output": "AddMarker('Munich', [48.1351, 11.5820])"}
+{"input": "Add a marker for 'Matterhorn' at 45.9764, 7.6586!", "output": "AddMarker('Matterhorn', [45.9764, 7.6586])"}
+{"input": "Enable Point drawing mode!", "output": "Draw('Point')"}
+{"input": "I want to travel to 42.0000, -87.0000.", "output": "Move(42.0000, -87.0000)"}
+{"input": "Label the point 48.8566, 2.3522 as 'Louvre Museum'!", "output": "AddMarker('Louvre Museum', [48.8566, 2.3522])"}
+{"input": "Add a marker for 'Machu Picchu' at -13.1633, -72.5456!", "output": "AddMarker('Machu Picchu', [-13.1633, -72.5456])"}
+{"input": "Magnify the map by 1 level to inspect the area.", "output": "ZoomIn(1)"}
+{"input": "Let's go to 56.0000, 37.0000.", "output": "Move(56.0000, 37.0000)"}
+{"input": "Can you mark a specific location with a Point?", "output": "Draw('Point')"}
+{"input": "Mark 'Yosemite Valley' on the map at 37.7447, -119.5947!", "output": "AddMarker('Yosemite Valley', [37.7447, -119.5947])"}
+{"input": "Label the coordinates 52.5200, 13.4050 as 'Brandenburg Gate'!", "output": "AddMarker('Brandenburg Gate', [52.5200, 13.4050])"}
+{"input": "Fetch WMS tiles from https://geo.server.net/geoserver/wms.", "output": "AddWMS('https://geo.server.net/geoserver/wms')"}
+{"input": "Change the background color to lavender.", "output": "Cartography('background', 'lavender', null)"}
+{"input": "Let\u2019s use the OpenBeachMap layer for coastal fun.", "output": "AddLayer('OpenBeachMap')"}
+{"input": "Map zoom out 8.", "output": "ZoomOut(8)"}
+{"input": "Move us to 41.0082, 28.9784, please.", "output": "Move(41.0082, 28.9784)"}
+{"input": "Show the fog density layer from WMS URL https://fog.density/wms", "output": "AddWMS('https://fog.density/wms')"}
+{"input": "Adjust the view to fit between (42.9602, -92.2933) and (20.5238, -46.2626)!", "output": "MoveToExtent(42.9602, -92.2933, 20.5238, -46.2626)"}
+{"input": "Add a polyline layer from file polyline_buildings_London_q7u.geojson!", "output": "AddVector('polyline', 'polyline_buildings_London_q7u.geojson')"}
+{"input": "Add the road conditions using WMS URL https://road.conditions/wms", "output": "AddWMS('https://road.conditions/wms')"}
+{"input": "Display the region between 24.0000, 54.0000 and 45.0000, 15.0000.", "output": "MoveToExtent(24.0000, 54.0000, 45.0000, 15.0000)"}
+{"input": "Can we load the OpenFireStationMap layer for emergencies?", "output": "AddLayer('OpenFireStationMap')"}
+{"input": "Set map bounds from -69.408, 160.8022 to -24.0009, -11.2135.", "output": "MoveToExtent(-69.408, 160.8022, -24.0009, -11.2135)"}
+{"input": "Attach 'polylines_canals_Venice.gpx' to display canal networks.", "output": "AddVector('polyline', 'polylines_canals_Venice.gpx')"}
+{"input": "Take me to the coordinates 25.0000, 55.0000.", "output": "Move(25.0000, 55.0000)"}
+{"input": "Plot a Point for the lighthouse!", "output": "Draw('Point')"}
+{"input": "Display the region from 39.0000, 116.0000 to 53.0000, 9.0000.", "output": "MoveToExtent(39.0000, 116.0000, 53.0000, 9.0000)"}
+{"input": "Zoom into the map by 5 levels for a closer perspective.", "output": "ZoomIn(5)"}
+{"input": "Add marker 'Hotel' at location 85.6087, 53.5672!", "output": "AddMarker('Hotel', [85.6087, 53.5672])"}
+{"input": "Change the background color to wheat.", "output": "Cartography('background', 'wheat', null)"}
+{"input": "Import point data with point_buildings_Tokyo_9ma.kml.", "output": "AddVector('point', 'point_buildings_Tokyo_9ma.kml')"}
+{"input": "Update map position to 73.4573, -52.2582", "output": "Move(73.4573, -52.2582)"}
+{"input": "I need the pollution levels via WMS URL https://pollution.levels/wms", "output": "AddWMS('https://pollution.levels/wms')"}
+{"input": "Change to the USGS map layer.", "output": "AddLayer('USGS')"}
+{"input": "I want the OpenChargingMap layer for EV stations.", "output": "AddLayer('OpenChargingMap')"}
+{"input": "Can you add the OpenPharmacyMap layer for medications?", "output": "AddLayer('OpenPharmacyMap')"}
+{"input": "Magnify the map by 2 levels to see the details.", "output": "ZoomIn(2)"}
+{"input": "Please zoom out 5 levels!", "output": "ZoomOut(5)"}
+{"input": "Add a marker with label 'Park' at 17.8726, -39.255!", "output": "AddMarker('Park', [17.8726, -39.255])"}
+{"input": "Add a polygon layer from file polygon_parks_Texas_yqv.shp", "output": "AddVector('polygon', 'polygon_parks_Texas_yqv.shp')"}
+{"input": "Set the visible region between -25.4048, 127.6214 and 26.8787, -161.0466", "output": "MoveToExtent(-25.4048, 127.6214, 26.8787, -161.0466)"}
+{"input": "Move to bounding box -43.7266, -104.8753 and 37.1562, -15.4269!", "output": "MoveToExtent(-43.7266, -104.8753, 37.1562, -15.4269)"}
+{"input": "Use fill 'lightgray' and line width 2!", "output": "Cartography('fill', 'lightgray', [2])"}
+{"input": "Go to the location 40.7128, -74.0060.", "output": "Move(40.7128, -74.0060)"}
+{"input": "Set the fill color of beaches to sand.", "output": "Cartography('fill', 'sand', null)"}
+{"input": "Could you zoom in 6 levels", "output": "ZoomIn(6)"}
+{"input": "Decrease the map zoom by 7 levels.", "output": "ZoomOut(7)"}
+{"input": "I want to zoom out 10 levels!", "output": "ZoomOut(10)"}
+{"input": "Could you zoom in 9 levels.", "output": "ZoomIn(9)"}
+{"input": "Import 'points_windmills_Netherlands.kml' to add windmill locations.", "output": "AddVector('point', 'points_windmills_Netherlands.kml')"}
+{"input": "Move the map to latitude -7.384 and longitude -176.4497.", "output": "Move(-7.384, -176.4497)"}
+{"input": "Move out by 4 zoom levels", "output": "ZoomOut(4)"}
+{"input": "View the region between 24.0000, 54.0000 and 46.0000, 14.0000.", "output": "MoveToExtent(24.0000, 54.0000, 46.0000, 14.0000)"}
+{"input": "Place 'Sydney Opera House' at -33.8568, 151.2153 on the map!", "output": "AddMarker('Sydney Opera House', [-33.8568, 151.2153])"}
+{"input": "Focus on the coordinates between 23.6345, -102.5528 and 49.2827, -123.1207.", "output": "MoveToExtent(23.6345, -102.5528, 49.2827, -123.1207)"}
+{"input": "Tag location Train Station, -1.2821 as '165.7672'!", "output": "AddMarker('Train Station', [-1.2821, 165.7672])"}
+{"input": "Display the landslide susceptibility map from WMS URL https://landslide.susceptibility/wms", "output": "AddWMS('https://landslide.susceptibility/wms')"}
+{"input": "Import 'points_waterfalls_Iceland.kml' to add waterfall locations.", "output": "AddVector('point', 'points_waterfalls_Iceland.kml')"}
+{"input": "Use OSM for the background map.", "output": "AddLayer('OSM')"}
+{"input": "Overlay polyline data with file polyline_districts_CA_878.kml!", "output": "AddVector('polyline', 'polyline_districts_CA_878.kml')"}
+{"input": "Switch to the OpenFuelMap layer for gas stations.", "output": "AddLayer('OpenFuelMap')"}
+{"input": "Pan to coordinates -6.4267, -84.3226", "output": "Move(-6.4267, -84.3226)"}
+{"input": "Add a Point to highlight the monument!", "output": "Draw('Point')"}
+{"input": "Move to bounding box 37.5044, 55.9121 and -80.6457, -38.1099.", "output": "MoveToExtent(37.5044, 55.9121, -80.6457, -38.1099)"}
+{"input": "Zoom to area from 62.186, 100.0553 to 64.5862, 134.7863.", "output": "MoveToExtent(62.186, 100.0553, 64.5862, 134.7863)"}
+{"input": "Upload 'polylines_luge_Austria.shp' to overlay luge tracks.", "output": "AddVector('polyline', 'polylines_luge_Austria.shp')"}
+{"input": "Use this WMS link: https://tiles.io/ows!", "output": "AddWMS('https://tiles.io/ows')"}
+{"input": "Display the region from 32.0000, 35.0000 to 51.0000, 10.0000.", "output": "MoveToExtent(32.0000, 35.0000, 51.0000, 10.0000)"}
+{"input": "Zoom into the coordinates from 36.0000, 104.0000 to 54.0000, 18.0000.", "output": "MoveToExtent(36.0000, 104.0000, 54.0000, 18.0000)"}
+{"input": "Change the zoom level out by 2.", "output": "ZoomOut(2)"}
+{"input": "Show the mangrove health index from WMS URL https://mangrove.health/wms", "output": "AddWMS('https://mangrove.health/wms')"}
+{"input": "Pan to coordinates -78.7205, 10.8734", "output": "Move(-78.7205, 10.8734)"}
+{"input": "Zoom in by 6 levels to get a closer look.", "output": "ZoomIn(6)"}
+{"input": "Zoom out by 7 levels to get a full overview.", "output": "ZoomOut(7)"}
+{"input": "Display extent from -89.9093, 38.1838 to 0.4374, 166.8297!", "output": "MoveToExtent(-89.9093, 38.1838, 0.4374, 166.8297)"}
+{"input": "Navigate in 6 levels on the map!", "output": "ZoomIn(6)"}
+{"input": "Can you fetch the soil type map using WMS URL https://soil.type/wms?", "output": "AddWMS('https://soil.type/wms')"}
+{"input": "Attach 'points_fountains_Rome.kml' to plot fountain locations.", "output": "AddVector('point', 'points_fountains_Rome.kml')"}
+{"input": "Draw a Polygon around the coral reef!", "output": "Draw('Polygon')"}
+{"input": "Let's go to 35.6895, 139.6917.", "output": "Move(35.6895, 139.6917)"}
+{"input": "Upload 'polygons_reefs_GreatBarrier.gpx' to highlight coral reef areas.", "output": "AddVector('polygon', 'polygons_reefs_GreatBarrier.gpx')"}
+{"input": "Shift the zoom out 4 levels!", "output": "ZoomOut(4)"}
+{"input": "Let\u2019s use the Sentinel Hub layer for Earth observation.", "output": "AddLayer('SentinelHub')"}
+{"input": "Initiate a Line drawing!", "output": "Draw('Line')"}
+{"input": "Use this WMS link: https://tiles.io/arcgis/services/wms", "output": "AddWMS('https://tiles.io/arcgis/services/wms')"}
+{"input": "Magnify the map by 2 levels for a detailed view.", "output": "ZoomIn(2)"}
+{"input": "I want the OpenMusicMap layer for live concerts.", "output": "AddLayer('OpenMusicMap')"}
+{"input": "Fit the map to cover area from -23.0243, 31.6683 to 15.7563, -1.9933!", "output": "MoveToExtent(-23.0243, 31.6683, 15.7563, -1.9933)"}
+{"input": "Switch to the OpenTopoMap map layer!", "output": "AddLayer('OpenTopoMap')"}
+{"input": "Apply a black stroke with a width of 4 to the roads.", "output": "Cartography('stroke', 'black', 4)"}
+{"input": "Move to bounding box -22.842, 151.8448 and 72.4687, 8.2787", "output": "MoveToExtent(-22.842, 151.8448, 72.4687, 8.2787)"}
+{"input": "Go to location 15.4321, 44.5877.", "output": "Move(15.4321, 44.5877)"}
+{"input": "Zoom into the map by 3 levels for a detailed inspection.", "output": "ZoomIn(3)"}
+{"input": "Place a marker labeled 'Bus Stop' at 46.6003, 117.8314!", "output": "AddMarker('Bus Stop', [46.6003, 117.8314])"}
+{"input": "Add a marker labeled 'Chichen Itza' at 20.6833, -88.5689!", "output": "AddMarker('Chichen Itza', [20.6833, -88.5689])"}
+{"input": "Zoom out 4.", "output": "ZoomOut(4)"}
+{"input": "Could you zoom in 1 levels", "output": "ZoomIn(1)"}
+{"input": "Go to location 63.2813, 66.8616", "output": "Move(63.2813, 66.8616)"}
+{"input": "Zoom in by 3 levels to inspect the area closely.", "output": "ZoomIn(3)"}
+{"input": "Outline the amphitheater with a Polygon!", "output": "Draw('Polygon')"}
+{"input": "Mark 'Train Station' at 69.6263, -64.6962!", "output": "AddMarker('Train Station', [69.6263, -64.6962])"}
+{"input": "Take me to the location 48.8566, 2.3522.", "output": "Move(48.8566, 2.3522)"}
+{"input": "Load WMS service at https://geo.server.net/wms", "output": "AddWMS('https://geo.server.net/wms')"}
+{"input": "Display extent from 62.9454, 98.5052 to -76.0935, -50.388!", "output": "MoveToExtent(62.9454, 98.5052, -76.0935, -50.388)"}
+{"input": "Show the area between 22.0000, 114.0000 and 43.0000, 18.0000.", "output": "MoveToExtent(22.0000, 114.0000, 43.0000, 18.0000)"}
+{"input": "Plug in WMS service from https://data.gov/mapservice!", "output": "AddWMS('https://data.gov/mapservice')"}
+{"input": "Focus on the area between 22.0000, 114.0000 and 43.0000, 18.0000.", "output": "MoveToExtent(22.0000, 114.0000, 43.0000, 18.0000)"}
+{"input": "Shift the zoom in 6 levels", "output": "ZoomIn(6)"}
+{"input": "View the zone from 34.0000, 108.0000 to 56.0000, 37.0000.", "output": "MoveToExtent(34.0000, 108.0000, 56.0000, 37.0000)"}
+{"input": "Use a hotpink stroke with a width of 4 for bold statements.", "output": "Cartography('stroke', 'hotpink', 4)"}
+{"input": "Import polyline data with polyline_utilities_Sydney_p4t.kml.", "output": "AddVector('polyline', 'polyline_utilities_Sydney_p4t.kml')"}
+{"input": "I'd like to move to 51.0455, -118.4719!", "output": "Move(51.0455, -118.4719)"}
+{"input": "Import polygon data with polygon_lakes_CA_b22.json", "output": "AddVector('polygon', 'polygon_lakes_CA_b22.json')"}
+{"input": "Can you add the Apple Maps layer for iOS compatibility?", "output": "AddLayer('AppleMaps')"}
+{"input": "Include point features from file point_roads_Paris_46h.json.", "output": "AddVector('point', 'point_roads_Paris_46h.json')"}
+{"input": "Overlay polygon data with file polygon_lakes_Berlin_eb6.geojson", "output": "AddVector('polygon', 'polygon_lakes_Berlin_eb6.geojson')"}
+{"input": "Apply a fuchsia stroke with a width of 3 for decorative borders.", "output": "Cartography('stroke', 'fuchsia', 3)"}
+{"input": "Add the seagrass bed map using WMS URL https://seagrass.bed/wms", "output": "AddWMS('https://seagrass.bed/wms')"}
+{"input": "Mark 'Santorini' on the map at 36.3932, 25.4615!", "output": "AddMarker('Santorini', [36.3932, 25.4615])"}
+{"input": "Use the Line tool to map the monorail!", "output": "Draw('Line')"}
+{"input": "Navigate to the point 44.4268, 26.1025.", "output": "Move(44.4268, 26.1025)"}
+{"input": "Add the primary productivity map using WMS URL https://primary.productivity/wms", "output": "AddWMS('https://primary.productivity/wms')"}
+{"input": "Load the point vector using point_zones_Texas_dib.json.", "output": "AddVector('point', 'point_zones_Texas_dib.json')"}
+{"input": "Zoom out by 1 level to see the full area.", "output": "ZoomOut(1)"}
+{"input": "Decrease the map's zoom by 1 level.", "output": "ZoomOut(1)"}
+{"input": "Zoom the map in by 10 levels!", "output": "ZoomIn(10)"}
+{"input": "Map zoom in 6.", "output": "ZoomIn(6)"}
+{"input": "Use the Line tool to map the power line!", "output": "Draw('Line')"}
+{"input": "Pull back the map by 5 levels.", "output": "ZoomOut(5)"}
+{"input": "Please overlay the seismic data via WMS URL https://seismic.data/wms", "output": "AddWMS('https://seismic.data/wms')"}
+{"input": "Zoom to area from 54.054, 176.525 to 9.8319, 32.4561!", "output": "MoveToExtent(54.054, 176.525, 9.8319, 32.4561)"}
+{"input": "Move the map to latitude -77.8154 and longitude -46.1115", "output": "Move(-77.8154, -46.1115)"}
+{"input": "Add the salt marsh distribution map using WMS URL https://saltmarsh.distribution/wms", "output": "AddWMS('https://saltmarsh.distribution/wms')"}
+{"input": "Set the fill color of wetlands to teal.", "output": "Cartography('fill', 'teal', null)"}
+{"input": "Shift the zoom out 3 levels.", "output": "ZoomOut(3)"}
+{"input": "Outline the cemetery with a Polygon!", "output": "Draw('Polygon')"}
+{"input": "Zoom in by 1 level to focus on the area.", "output": "ZoomIn(1)"}
+{"input": "Change map extent between (-38.9153, -80.857) and (68.5261, -37.0013)!", "output": "MoveToExtent(-38.9153, -80.857, 68.5261, -37.0013)"}
+{"input": "Use the file 'points_hotels_Dubai.gpx' to mark hotel locations.", "output": "AddVector('point', 'points_hotels_Dubai.gpx')"}
+{"input": "Can you fetch the thunderstorm frequency map using WMS URL https://thunderstorm.frequency/wms?", "output": "AddWMS('https://thunderstorm.frequency/wms')"}
+{"input": "Shift the map to -72.1046, 116.1648.", "output": "Move(-72.1046, 116.1648)"}
+{"input": "Change the map's stroke color to indigo with a width of 7.", "output": "Cartography('stroke', 'indigo', 7)"}
+{"input": "Increase the zoom by 4 levels.", "output": "ZoomIn(4)"}
+{"input": "Adjust the view to fit between (-0.1861, -109.3352) and (32.2966, -14.5639)!", "output": "MoveToExtent(-0.1861, -109.3352, 32.2966, -14.5639)"}
+{"input": "Reduce the zoom level by 2 steps.", "output": "ZoomOut(2)"}
+{"input": "Add IGN to the map", "output": "AddLayer('IGN')"}
+{"input": "Navigate to 15.6794, 19.2177 on the map.", "output": "Move(15.6794, 19.2177)"}
+{"input": "Use the tool to draw a Point!", "output": "Draw('Point')"}
+{"input": "Add TomTom to the map!", "output": "AddLayer('TomTom')"}
+{"input": "Drop a 'Park' marker at -83.4835, 41.8363.", "output": "AddMarker('Park', [-83.4835, 41.8363])"}

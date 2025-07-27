@@ -1,0 +1,6 @@
+scikit-learn>=1.2.0
+skl2onnx>=1.14.0
+numpy>=1.23.0
+notebook
+requests
+tqdm

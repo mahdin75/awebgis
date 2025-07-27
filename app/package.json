@@ -1,0 +1,37 @@
+{
+  "name": "awebgis",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "devbuild": "tsc -b && vite build --mode development",
+    "build": "tsc -b && vite build --mode production",
+    "lint": "eslint .",
+    "preview": "vite preview --mode development"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.7.0",
+    "core-js": "^3.40.0",
+    "ol": "^10.3.1",
+    "onnxruntime-web": "^1.16.0",
+    "react": "^18.3.1",
+    "react-confirm-alert": "^3.0.6",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.54.2",
+    "vazir-font": "^30.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.14.0",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.18.2",
+    "vite": "^6.0.5"
+  }
+}

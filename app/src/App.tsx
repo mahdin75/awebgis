@@ -20,11 +20,13 @@ import {
   env,
 } from "@huggingface/transformers";
 
+ort.env.wasm.wasmPaths = "https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/";
+
 env.allowLocalModels = true;
 env.allowRemoteModels = false;
 
 // Utility functions
-const COHERE_API_KEY = "Your Cohere API KEY";
+const COHERE_API_KEY = "";
 
 // Map operation functions
 function addMarkerToMap(map: Map, name: string, lon: number, lat: number) {
@@ -36,15 +38,16 @@ function addMarkerToMap(map: Map, name: string, lon: number, lat: number) {
   feature.setStyle(
     new Style({
       image: new Circle({
-        radius: 7,
+        radius: 10,
         fill: new Fill({ color: "#e53935" }),
         stroke: new Stroke({ color: "#fff", width: 2 }),
       }),
       text: new Text({
+        font: "16px Vazir",
         text: name,
         offsetY: -18,
-        fill: new Fill({ color: "#333" }),
-        stroke: new Stroke({ color: "#fff", width: 2 }),
+        fill: new Fill({ color: "red" }),
+        stroke: new Stroke({ color: "white", width: 2 }),
       }),
     })
   );
@@ -115,7 +118,7 @@ async function executeFunctionOnMap(map: Map, funcCall: string) {
       }
     } else if (funcCall.startsWith("AddMarker(")) {
       const m = funcCall.match(
-        /AddMarker\('([^']+)',\s*\[([-\d.]+),\s*([-\d.]+)\]\)/
+        /AddMarker\('([^']+)', \[([-\d.]+),\s*([-\d.]+)\]\)/
       );
       if (m) {
         const name = m[1],
@@ -270,7 +273,7 @@ export default function App() {
     if (!onnxModels[modelType]) {
       try {
         const session = await ort.InferenceSession.create(
-          `models/${modelType}_function_classifier.onnx`
+          `/models/${modelType}_function_classifier.onnx`
         );
         setOnnxModels((prev) => ({
           ...prev,
@@ -310,6 +313,7 @@ export default function App() {
       const modelType = modelSelectRef.current?.value;
       try {
         if (!modelType) throw new Error("No model type selected");
+        console.log(modelType);
 
         const model = await loadOnnxModel(modelType);
 
@@ -368,7 +372,7 @@ export default function App() {
         // !important
         // You can also download the model and put it inside the public/models/awebgis to reduce the first time latency
         // here we are loading the model from mahdin75/awebgis that downloads the model from huggingface.co
-        const LOCALMODEL = "mahdin75/awebgis";
+        const LOCALMODEL = "awebgis";
 
         const tokenizer = await AutoTokenizer.from_pretrained(LOCALMODEL, {
           progress_callback: (e) => {

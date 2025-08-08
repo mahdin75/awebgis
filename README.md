@@ -70,6 +70,6 @@ If you use this work, please cite:
 ## 📄 Publication
 
 The published paper is available at:
-👉 _\[https://arxiv.org/abs/2508.04846](https://arxiv.org/abs/2508.04846)]_
+👉 _https://arxiv.org/abs/2508.04846_
 
 ---

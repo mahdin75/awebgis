@@ -54,14 +54,14 @@ The fine-tuned T5-small model is available on Hugging Face:
 If you use this work, please cite:
 
 ```bibtex
-@article{yourname2025awebgis,
-  title={Fine-Tuning Small Language Models for Autonomous Web GIS (AWebGIS)},
-  author={Your Name and Co-author Name},
-  journal={Journal/Conference Name},
-  year={2025},
-  eprint={XXXX.XXXXX},
-  archivePrefix={arXiv},
-  primaryClass={cs.LG}
+@misc{ashani2025finetuningsmalllanguagemodels,
+      title={Fine-Tuning Small Language Models (SLMs) for Autonomous Web-based Geographical Information Systems (AWebGIS)}, 
+      author={Mahdi Nazari Ashani and Ali Asghar Alesheikh and Saba Kazemi and Kimya Kheirkhah and Yasin Mohammadi and Fatemeh Rezaie and Amir Mahdi Manafi and Hedieh Zarkesh},
+      year={2025},
+      eprint={2508.04846},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2508.04846}, 
 }
 ```
 
@@ -70,6 +70,6 @@ If you use this work, please cite:
 ## 📄 Publication
 
 The published paper is available at:
-👉 _\[Insert paper link here]_
+👉 _\[https://arxiv.org/abs/2508.04846](https://arxiv.org/abs/2508.04846)]_
 
 ---

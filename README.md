@@ -3,6 +3,7 @@
 This repository contains all materials related to our paper:  
 **_"Fine-Tuning Small Language Models (SLMs) for Autonomous Web GIS (AWebGIS)"_**
 
+[![DOI](https://zenodo.org/badge/1024300108.svg)](https://doi.org/10.5281/zenodo.16881864)
 ---
 
 ## 📁 Contents

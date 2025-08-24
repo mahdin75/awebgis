@@ -1,7 +1,7 @@
-# Fine-Tuning Small Language Models (SLMs) for Autonomous Web GIS (AWebGIS)
+# Fine-Tuning Small Language Models (SLMs) for Autonomous Web-based Geographical Information Systems (AWebGIS)
 
 This repository contains all materials related to our paper:  
-**_"Fine-Tuning Small Language Models (SLMs) for Autonomous Web GIS (AWebGIS)"_**
+**_"Fine-Tuning Small Language Models (SLMs) for Autonomous Web-based Geographical Information Systems (AWebGIS)"_**
 
 [![DOI](https://zenodo.org/badge/1024300108.svg)](https://doi.org/10.5281/zenodo.16881864)
 ---

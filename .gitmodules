@@ -1,3 +1,4 @@
 [submodule "app"]
 	path = app
 	url = https://github.com/mahdin75/awebgis-app
+	branch = main

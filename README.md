@@ -18,8 +18,6 @@ This repository contains all materials related to our preprint:
 
 ### 1. Training and Evaluation
 
-The t5-small notebook has been executed on Google Colab, while the remaining scripts have been tested both locally and on Colab.
-
 You can follow the instructions below to re-run the scripts.
 
 ```bash

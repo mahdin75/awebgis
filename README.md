@@ -62,28 +62,30 @@ The fine-tuned models are available on Hugging Face:
 
 ---
 
-## 📖 Citation
 
-If you use this work, please cite:
+### 📌 Recommended BibTeX (Published Version)
 
 ```bibtex
-@misc{ashani2025finetuningsmalllanguagemodels,
-      title={Fine-Tuning Small Language Models (SLMs) for Autonomous Web-based Geographical Information Systems (AWebGIS)},
-      author={Mahdi Nazari Ashani and Ali Asghar Alesheikh and Saba Kazemi and Kimya Kheirkhah and Yasin Mohammadi and Fatemeh Rezaie and Amir Mahdi Manafi and Hedieh Zarkesh},
-      year={2025},
-      eprint={2508.04846},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2508.04846},
+@article{NazariAshani2026AWebGIS,
+  author = {Mahdi Nazari Ashani and Ali Asghar Alesheikh and Saba Kazemi and Kimya Kheirkhah and Yasin Mohammadi and Fatemeh Rezaie and Amir Mahdi Manafi and Hedieh Zahra Zarkesh},
+  title = {Fine-tuning Small Language Models (SLMs) for autonomous web-based geographical information systems (AWebGIS)},
+  journal = {Cartography and Geographic Information Science},
+  volume = {0},
+  number = {0},
+  pages = {1--16},
+  year = {2026},
+  publisher = {Taylor \& Francis},
+  doi = {10.1080/15230406.2026.2625987},
+  url = {https://doi.org/10.1080/15230406.2026.2625987}
 }
 ```
 
 ---
 
-## 📄 Preprint
+## 📄 Publication Status
 
-The preprint is available at:
+This work has now been **peer-reviewed and published** in *Cartography and Geographic Information Science*.
 
-👉 _https://arxiv.org/abs/2508.04846_
+👉 Published version: [https://doi.org/10.1080/15230406.2026.2625987](https://doi.org/10.1080/15230406.2026.2625987)
 
 ---

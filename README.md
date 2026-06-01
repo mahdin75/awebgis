@@ -18,8 +18,6 @@ This repository contains all materials related to our preprint:
 
 ### 1. Training and Evaluation
 
-The t5-small notebook has been executed on Google Colab, while the remaining scripts have been tested both locally and on Colab.
-
 You can follow the instructions below to re-run the scripts.
 
 ```bash
@@ -63,6 +61,7 @@ The fine-tuned models are available on Hugging Face:
 ---
 
 
+If you use this work, please cite:
 ### 📌 Recommended BibTeX (Published Version)
 
 ```bibtex
@@ -84,8 +83,7 @@ The fine-tuned models are available on Hugging Face:
 
 ## 📄 Publication Status
 
-This work has now been **peer-reviewed and published** in *Cartography and Geographic Information Science*.
-
+The preprint is available at:
 👉 Published version: [https://doi.org/10.1080/15230406.2026.2625987](https://doi.org/10.1080/15230406.2026.2625987)
 
 ---

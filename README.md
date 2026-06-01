@@ -84,8 +84,6 @@ If you use this work, please cite:
 ---
 
 ## 📄 Publication Status
-
-The preprint is available at:
 👉 Published version: [https://doi.org/10.1080/15230406.2026.2625987](https://doi.org/10.1080/15230406.2026.2625987)
 
 ---
